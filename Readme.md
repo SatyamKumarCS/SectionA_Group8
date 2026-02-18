@@ -2,8 +2,17 @@
 <div align="center">
 	<img src="image.png" alt="Real Estate Market Dashboard" width="600" />
 </div>
-![Real Estate Analysis](https://img.shields.io/badge/Data_Analysis-Real_Estate-blue)
-![Tools](https://img.shields.io/badge/Tools-Google_Sheets%20%7C%20Excel%20%7C%20Pivot_Tables-green)
+<div align="center">
+	<a href="https://docs.google.com/spreadsheets/d/1QU5AEmZaSJcBjNW9MoLuTMz_-Acxpx7rbuLUTRQnjZs/edit?gid=1004518743#gid=1004518743" target="_blank" rel="noopener noreferrer">
+		<img src="https://img.shields.io/badge/Cleaned%20Dataset-Google%20Sheets-brightgreen?logo=google-sheets&logoColor=white" alt="Cleaned dataset" />
+	</a>
+	&nbsp;
+	<a href="https://docs.google.com/spreadsheets/d/1QU5AEmZaSJcBjNW9MoLuTMz_-Acxpx7rbuLUTRQnjZs/edit?gid=1285832976#gid=1285832976" target="_blank" rel="noopener noreferrer">
+		<img src="https://img.shields.io/badge/Dashboard-Google%20Sheets-blue?logo=google-sheets&logoColor=white" alt="Dashboard" />
+	</a>
+</div>
+**Data Analysis:** Real Estate  
+**Tools:** Google Sheets | Excel | Pivot Tables
 
 ## 📌 Project Overview
 This project provides a comprehensive market analysis of over **21,600 housing transactions**. By cleaning raw transactional data and applying advanced aggregation techniques, this analysis identifies the key drivers of property value—ranging from waterfront premiums to renovation ROI—to guide a real estate investment firm’s acquisition strategy.
@@ -55,8 +64,14 @@ The final dashboard consists of **11 interactive charts** designed for executive
 ---
 
 ## 📁 Repository Structure
-* `/data`: Contains `Cleaned.csv` and the original raw dataset.
-* `/analysis`: Pivot table exports and `Calculations.xlsx`.
-* `/dashboard`: Screenshots and layout guides for the final visual interface.
+## 📁 Repository Structure
+- `Calculation&Pivot_Table`: Pivot table exports and calculation workbooks.
+- `CleanedDataset`: Contains `Cleaned.csv` and notes about data cleaning.
+- `Dashboard`: Dashboard assets and `Raw Housing Prices Dashboard (1).csv`.
+- `Documentation`: Project documentation and methodology notes.
+- `Presentation`: Final presentation slides.
+- `RawDataset`: Original raw `dataset.csv`.
+- `image.png`: Cover image used at the top of this README.
+- `Readme.md`: Project overview and links.
 
 ---
