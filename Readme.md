@@ -1,0 +1,62 @@
+# Real Estate Market Analysis & Investment Strategy
+<div align="center">
+	<img src="image.png" alt="Real Estate Market Dashboard" width="600" />
+</div>
+![Real Estate Analysis](https://img.shields.io/badge/Data_Analysis-Real_Estate-blue)
+![Tools](https://img.shields.io/badge/Tools-Google_Sheets%20%7C%20Excel%20%7C%20Pivot_Tables-green)
+
+## 📌 Project Overview
+This project provides a comprehensive market analysis of over **21,600 housing transactions**. By cleaning raw transactional data and applying advanced aggregation techniques, this analysis identifies the key drivers of property value—ranging from waterfront premiums to renovation ROI—to guide a real estate investment firm’s acquisition strategy.
+
+### 🎯 Primary Decision Question
+> *"Which specific property attributes and neighborhood factors (waterfront views, house condition, or recent renovations) most significantly influence sale prices, and how should an investment firm prioritize portfolio acquisitions to maximize potential returns?"*
+
+---
+
+## 🛠️ Data & Methodology
+The analysis was performed on a cleaned dataset featuring 21 columns of property data, including price, size, age, and geographical coordinates.
+
+### Key Processing Steps:
+* **Data Cleaning:** Standardized currency, handled null values, and validated zipcode data.
+* **Calculated Metrics:** Created `Price per Sqft` and `House Age` to allow for "Apples-to-Apples" comparisons across different neighborhoods.
+* **Pivot Table Aggregation:** Built 11 distinct pivot tables to isolate variables such as the **Waterfront Premium** ($958k vs $508k) and the **Renovation Effect** ($656k vs $505k).
+
+---
+
+## 📊 Dashboard Visualizations
+The final dashboard consists of **11 interactive charts** designed for executive-level decision-making:
+
+### 1. Market Snapshot
+* **Overall Market Metrics:** Scorecards for Total Sales, Avg. Price, and Median Price.
+* **Price Trend Over Time:** Area chart tracking market momentum.
+
+### 2. Property Attribute Analysis
+* **Waterfront Value Gap:** Bar chart showing the massive luxury premium for waterfront access.
+* **Condition vs. Valuation:** Combo chart comparing sales volume against average price for different house conditions.
+* **Size Impact:** Area chart visualizing price growth relative to living area square footage.
+
+### 3. Investment Strategy 
+* **Renovation ROI:** Donut chart illustrating the value-add of property modernization.
+* **Bed/Bath Heatmap:** A visual grid identifying the most profitable house configurations.
+* **Age Effect:** Line chart showing the correlation between property age and market demand.
+
+### 4. Geographic Intelligence
+* **Price by Zipcode Map:** Geo-chart pinpointing high-value and emerging neighborhoods.
+* **Luxury Pockets:** Stacked bar chart showing waterfront premiums by specific zipcode.
+* **Acquisition Targets:** A ranked analysis of neighborhoods with the lowest **Price per Sqft**.
+
+---
+
+## 💡 Strategic Recommendations
+* **Focus on Renovation:** Data shows a **$151,000+** average premium for renovated homes, suggesting a high-ROI "Fix-and-Flip" strategy is viable.
+* **Target "Fair" Condition Volume:** The "Fair" condition segment represents the highest liquidity (14,000+ sales), making it the safest tier for rapid portfolio scaling.
+* **Value Efficiency:** Acquisition efforts should prioritize zipcodes with low cost-per-square-foot but high overall grades to capture maximum appreciation.
+
+---
+
+## 📁 Repository Structure
+* `/data`: Contains `Cleaned.csv` and the original raw dataset.
+* `/analysis`: Pivot table exports and `Calculations.xlsx`.
+* `/dashboard`: Screenshots and layout guides for the final visual interface.
+
+---
